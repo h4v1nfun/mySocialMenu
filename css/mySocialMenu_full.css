@@ -1,0 +1,414 @@
+
+.mySocialMenu {
+	width:70px;
+	display:block;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	position:absolute;
+	right:-35px;
+	top:75px;
+	margin-bottom: 100px;
+}
+.mySocialMenu:hover {
+	right:-25px;
+}
+.mySocialMenu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.mySocialMenu li {
+	margin:0;
+	padding:0;
+}
+.mySocialMenu a {
+	display: block;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	position: relative;
+	height: 42px;
+	margin-bottom: 2px;
+	right: 0px;
+}
+.mySocialMenu a:hover {
+	right: 10px;
+}
+
+.mySocialMenu a::after {
+	display:block;
+	font-family: "FontAwesome";
+	text-decoration:none;
+	font-size:20px;
+	padding:10px;
+	left:0;
+	top:0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	opacity:0.2;
+	border-radius:10px;
+	padding-right:40px;
+	background:#333;
+	color:#FFF;
+}
+.mySocialMenu a:hover::after {
+	opacity:1;
+}
+.mySocialMenu a:hover {
+	right:10px;
+}
+
+/* twitter */
+.mySocialMenu a[mySocialMenu='twitter']::after {
+	content:"\f099";
+}
+.mySocialMenu a[mySocialMenu='twitter']:hover::after {
+	background:#4da7de;
+}
+
+/* facebook */
+.mySocialMenu a[mySocialMenu='facebook']::after {
+	content:"\f09a";
+}
+.mySocialMenu a[mySocialMenu='facebook']:hover::after {
+	background:#3e5b98;
+}
+
+/* google+ */
+.mySocialMenu a[mySocialMenu='google']::after {
+	content:"\f0d5";
+}
+.mySocialMenu a[mySocialMenu='google']:hover::after {
+	background:#d93e2d;
+}
+
+/* pinterest */
+.mySocialMenu a[mySocialMenu='pinterest']::after {
+	content:"\f0d2";
+}
+.mySocialMenu a[mySocialMenu='pinterest']:hover::after {
+	background:#c92619;
+}
+
+/* foursquare */
+.mySocialMenu a[mySocialMenu='foursquare']::after {
+	content:"\f180";
+}
+.mySocialMenu a[mySocialMenu='foursquare']:hover::after {
+	background:#23b7e0;
+}
+
+/* yahoo */
+.mySocialMenu a[mySocialMenu='yahoo']::after {
+	content:"\f19e";
+}
+.mySocialMenu a[mySocialMenu='yahoo']:hover::after {
+	background:#6E2A85;
+}
+
+/* skype */
+.mySocialMenu a[mySocialMenu='skype']::after {
+	content:"\f17e";
+}
+.mySocialMenu a[mySocialMenu='skype']:hover::after {
+	background:#28abe3;
+}
+
+/* bitbucket */
+.mySocialMenu a[mySocialMenu='bitbucket']::after {
+	content:"\f171";
+}
+.mySocialMenu a[mySocialMenu='bitbucket']:hover::after {
+	background:#3B73AF;
+}
+
+/* linkedin */
+.mySocialMenu a[mySocialMenu='linkedin']::after {
+	content:"\f0e1";
+}
+.mySocialMenu a[mySocialMenu='linkedin']:hover::after {
+	background:#3371b7;
+}
+
+/* xing */
+.mySocialMenu a[mySocialMenu='xing']::after {
+	content:"\f168";
+}
+.mySocialMenu a[mySocialMenu='xing']:hover::after {
+	background:#005a60;
+}
+
+/* soundcloud */
+.mySocialMenu a[mySocialMenu='soundcloud']::after {
+	content:"\f1be";
+}
+.mySocialMenu a[mySocialMenu='soundcloud']:hover::after {
+	background:#fe3801;
+}
+
+/* spotify */
+.mySocialMenu a[mySocialMenu='spotify']::after {
+	content:"\f1bc";
+}
+.mySocialMenu a[mySocialMenu='spotify']:hover::after {
+	background:#7bb342;
+}
+
+/* youtube */
+.mySocialMenu a[mySocialMenu='youtube']::after {
+	content:"\f167";
+}
+.mySocialMenu a[mySocialMenu='youtube']:hover::after {
+	background:#e02a20;
+}
+
+/* vimeo */
+.mySocialMenu a[mySocialMenu='vimeo']::after {
+	content:"\f194";
+}
+.mySocialMenu a[mySocialMenu='vimeo']:hover::after {
+	background:#51b5e7;
+}
+
+/* vine */
+.mySocialMenu a[mySocialMenu='vine']::after {
+	content:"\f1ca";
+}
+.mySocialMenu a[mySocialMenu='vine']:hover::after {
+	background:#00b389;
+}
+
+/* flickr */
+.mySocialMenu a[mySocialMenu='flickr']::after {
+	content:"\f16e";
+}
+.mySocialMenu a[mySocialMenu='flickr']:hover::after {
+	background:#1e1e1b;
+}
+
+/* instagram */
+.mySocialMenu a[mySocialMenu='instagram']::after {
+	content:"\f16d";
+}
+.mySocialMenu a[mySocialMenu='instagram']:hover::after {
+	background:#9c7c6e;
+}
+
+/* wordpress */
+.mySocialMenu a[mySocialMenu='wordpress']::after {
+	content:"\f19a";
+}
+.mySocialMenu a[mySocialMenu='wordpress']:hover::after {
+	background:#464646;
+}
+
+/* tumblr */
+.mySocialMenu a[mySocialMenu='tumblr']::after {
+	content:"\f173";
+}
+.mySocialMenu a[mySocialMenu='tumblr']:hover::after {
+	background:#45556c;
+}
+
+/* reddit */
+.mySocialMenu a[mySocialMenu='reddit']::after {
+	content:"\f1a1";
+}
+.mySocialMenu a[mySocialMenu='reddit']:hover::after {
+	background:#e74a1e;
+}
+
+/* dribbble */
+.mySocialMenu a[mySocialMenu='dribbble']::after {
+	content:"\f17d";
+}
+.mySocialMenu a[mySocialMenu='dribbble']:hover::after {
+	background:#e84d88;
+}
+
+/* stumbleupon */
+.mySocialMenu a[mySocialMenu='stumbleupon']::after {
+	content:"\f1a4";
+}
+.mySocialMenu a[mySocialMenu='stumbleupon']:hover::after {
+	background:#e64011;
+}
+
+/* digg */
+.mySocialMenu a[mySocialMenu='digg']::after {
+	content:"\f1a6";
+}
+.mySocialMenu a[mySocialMenu='digg']:hover::after {
+	background:#1d1d1b;
+}
+
+/* behance */
+.mySocialMenu a[mySocialMenu='behance']::after {
+	content:"\f1b4";
+}
+.mySocialMenu a[mySocialMenu='behance']:hover::after {
+	background:#000000;
+}
+
+/* delicious */
+.mySocialMenu a[mySocialMenu='delicious']::after {
+	content:"\f1a5";
+}
+.mySocialMenu a[mySocialMenu='delicious']:hover::after {
+	background:#020202;
+}
+
+/* deviantart */
+.mySocialMenu a[mySocialMenu='deviantart']::after {
+	content:"\f1bd";
+}
+.mySocialMenu a[mySocialMenu='deviantart']:hover::after {
+	background:#c5d200;
+}
+
+/* apple */
+.mySocialMenu a[mySocialMenu='apple']::after {
+	content:"\f179";
+}
+.mySocialMenu a[mySocialMenu='apple']:hover::after {
+	background:#B9BFC1;
+}
+
+/* github */
+.mySocialMenu a[mySocialMenu='github']::after {
+	content:"\f09b";
+}
+.mySocialMenu a[mySocialMenu='github']:hover::after {
+	background:#5380c0;
+}
+
+/* steam */
+.mySocialMenu a[mySocialMenu='steam']::after {
+	content:"\f1b6";
+}
+.mySocialMenu a[mySocialMenu='steam']:hover::after {
+	background:#8F8D8A;
+}
+
+/* windows */
+.mySocialMenu a[mySocialMenu='windows']::after {
+	content:"\f17a";
+}
+.mySocialMenu a[mySocialMenu='windows']:hover::after {
+	background:#00BDF6;
+}
+
+/* RSS */
+.mySocialMenu a[mySocialMenu='rss']::after {
+	content: "\f09e";
+}
+.mySocialMenu a[mySocialMenu='rss']:hover::after {
+	background: #f26109;
+}
+
+/* linux */
+.mySocialMenu a[mySocialMenu='linux']::after {
+	content: "\f17c";
+}
+.mySocialMenu a[mySocialMenu='linux']:hover::after{
+	background: #0199EB;
+}
+
+/* wechat */
+.mySocialMenu a[mySocialMenu='wechat']::after {
+	content: "\f1d7";
+}
+.mySocialMenu a[mySocialMenu='wechat']:hover::after {
+	background: #ADD174;
+}
+
+/* weibo */
+.mySocialMenu a[mySocialMenu='weibo']::after {
+	content: "\f18a";
+}
+.mySocialMenu a[mySocialMenu='weibo']:hover::after{
+	background: #C8E1F0;
+}
+
+/* android */
+.mySocialMenu a[mySocialMenu='android']::after{
+	content: "\f17b";
+}
+.mySocialMenu a[mySocialMenu='android']:hover::after {
+	background: #82BC00;
+}
+
+/* codepen */
+.mySocialMenu a[mySocialMenu='codepen']::after {
+	content: "\f1cb";
+}
+.mySocialMenu a[mySocialMenu='codepen']:hover::after {
+	background: #1F1F1F;
+}
+
+/* css3 */
+.mySocialMenu a[mySocialMenu='css']::after {
+	content: "\f13c";
+}
+.mySocialMenu a[mySocialMenu='css']:hover::after {
+	background: #85C5D2;
+}
+
+/* html5 */
+.mySocialMenu a[mySocialMenu='html5']::after {
+	content: "\f13b";
+}
+.mySocialMenu a[mySocialMenu='html5']:hover::after {
+	background: #E44E26;
+}
+
+/* stackoverflow */
+.mySocialMenu a[mySocialMenu='stackoverflow']::after {
+	content: "\f16c";
+}
+.mySocialMenu a[mySocialMenu='stackoverflow']:hover::after {
+	background: #FE7A15;
+}
+
+/* drupal */
+.mySocialMenu a[mySocialMenu='drupal']::after {
+	content: "\f1a9";
+}
+.mySocialMenu a[mySocialMenu='drupal']:hover::after {
+	background: #0D7DC2;
+}
+
+/* joomla */
+.mySocialMenu a[mySocialMenu='joomla']::after {
+	content: "\f1aa";
+}
+.mySocialMenu a[mySocialMenu='joomla']:hover::after {
+	background: #77D72C;
+}
+
+/* jsfiddle */
+.mySocialMenu a[mySocialMenu='jsfiddle']::after {
+	content: "\f1cc";
+}
+.mySocialMenu a[mySocialMenu='jsfiddle']:hover::after {
+	background: #4679BD;
+}
+
+/* openId */
+.mySocialMenu a[mySocialMenu='openid']::after {
+	content: "\f19b";
+}
+.mySocialMenu a[mySocialMenu='openid']:hover::after {
+	background: #FB923A;
+}
